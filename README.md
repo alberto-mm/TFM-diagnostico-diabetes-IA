@@ -14,3 +14,4 @@ Este repositorio contiene los notebooks de toda la experimentación desarrollada
 	* [kNN](./knn.ipynb)
 	* [Naive Bayes](./naive_bayes.ipynb)
 	* [SVM](./svm.ipynb)
+	* [Red neuronal artificial](./red_neuronal.ipynb)
