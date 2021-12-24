@@ -49,3 +49,49 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 | 70%-30% (Datos filtrados) | 86.11% | 76.72% | 91.08% | 80.91% |
 | 60%-40% (Datos filtrados) | 64.58% | 50.15% | 79.08% | 0% |
 | Datos sin filtrar (80%-20%) | 88% | 90.56% | 93.7% | 87.2% |
+
+#### Random forest
+
+|  | Exactitud | Sensibilidad | Especificidad | F1-score |
+| --- |:---:|:---:|:---:|:---:|
+| 80%-20% (Datos filtrados) | 79.17% | 75.93% | 87.22% | 79.26% |
+| 70%-30% (Datos filtrados) | - | - | - | - |
+| 60%-40% (Datos filtrados) | - | - | - | - |
+| Datos sin filtrar (80%-20%) | - | - | - | - |
+
+#### kNN
+
+|  | Exactitud | Sensibilidad | Especificidad | F1-score |
+| --- |:---:|:---:|:---:|:---:|
+| 80%-20% (Datos filtrados) | 70.83% | 52.78% | 81.11% | 0% |
+| 70%-30% (Datos filtrados) | - | - | - | - |
+| 60%-40% (Datos filtrados) | - | - | - | - |
+| Datos sin filtrar (80%-20%) | - | - | - | - |
+
+#### Naive Bayes
+
+|  | Exactitud | Sensibilidad | Especificidad | F1-score |
+| --- |:---:|:---:|:---:|:---:|
+| 80%-20% (Datos filtrados) | 83.33% | 79.63% | 90.63% | 79.63% |
+| 70%-30% (Datos filtrados) | - | - | - | - |
+| 60%-40% (Datos filtrados) | - | - | - | - |
+| Datos sin filtrar (80%-20%) | - | - | - | - |
+
+#### SVM
+
+|  | Exactitud | Sensibilidad | Especificidad | F1-score |
+| --- |:---:|:---:|:---:|:---:|
+| 80%-20% (Datos filtrados) | 87.5% | 82.41% | 92.78% | 85.29% |
+| 70%-30% (Datos filtrados) | - | - | - | - |
+| 60%-40% (Datos filtrados) | - | - | - | - |
+| Datos sin filtrar (80%-20%) | - | - | - | - |
+
+#### Red neuronal artificial
+
+|  | Exactitud | Sensibilidad | Especificidad | F1-score |
+| --- |:---:|:---:|:---:|:---:|
+| 80%-20% (Datos filtrados) | 91.67% | 93.52% | 95% | 93.52% |
+| 70%-30% (Datos filtrados) | - | - | - | - |
+| 60%-40% (Datos filtrados) | - | - | - | - |
+| Datos sin filtrar (80%-20%) | - | - | - | - |
+
