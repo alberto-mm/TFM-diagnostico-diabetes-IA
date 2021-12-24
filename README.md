@@ -9,7 +9,11 @@ Este repositorio contiene los notebooks de toda la experimentación desarrollada
 	* [`cargar_datos.ipynb`](./datos/cargar_datos.ipynb) y [`cargar_datos_onehot.ipynb`](./datos/cargar_datos_onehot.ipynb) son dos notebooks de prueba de carga de los dos conjuntos de datos creados anteriormente.
 	* [`analisis_exploratorio.ipynb`](./datos/analisis_exploratorio.ipynb): notebook en el que se realiza el análisis exploratorio de los datos (_EDA_) del conjunto de datos `datos.csv` para entender cómo están distribuidos y familiarizarse un poco más con ellos. Tras las correcciones oportunas se obtiene el dataset filtrado con el que trabajarán los modelos. Este se almacena en `datos_filtrados.csv`.
 - En  el directorio raíz se encuentran los notebooks de cada uno de los modelos creados y evaluados. Estos son:
-	* [Árboles de decisión](./arboles_decision_80-20.ipynb)
+	* Árboles de decisión
+		- [Separación de datos 80-20%](./arboles_decision_80-20.ipynb)
+		- [Separación de datos 70-30%](./arboles_decision_70-30.ipynb)
+		- [Separación de datos 60-40%](./arboles_decision_60-40.ipynb)
+		- [Datos sin filtrar (80-20%)](./arboles_decision_raw.ipynb)
 	* [Random forest](./random_forest_80-20.ipynb)
 	* [kNN](./knn_80-20.ipynb)
 	* [Naive Bayes](./naive_bayes_80-20.ipynb)
