@@ -51,7 +51,7 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
-| **80%-20% (Datos filtrados)** | **87.5%** | **90.74%** | **92.78%** | **90.39%** |
+| 80%-20% (Datos filtrados) | 87.5% | 90.74% | 92.78% | 90.39% |
 | 70%-30% (Datos filtrados) | 86.11% | 76.72% | 91.08% | 80.91% |
 | 60%-40% (Datos filtrados) | 64.58% | 50.15% | 79.08% | 0% |
 | 80%-20% (Datos sin filtrar) | 88% | 90.56% | 93.7% | 87.2% |
@@ -64,7 +64,7 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 79.17% | 75.93% | 87.22% | 79.26% |
 | 70%-30% (Datos filtrados) | 86.11% | 77.25% | 91.41% | 80.94% |
-| **60%-40% (Datos filtrados)** | **87.5%** | **90.96%** | **93.33%** | **86.57%** |
+| 60%-40% (Datos filtrados) | 87.5% | 90.96% | 93.33% | 86.57% |
 | 80%-20% (Datos sin filtrar) | 84% | 71.67% | 90.09% | 74.87% |
 | 70%-30% (Datos sin filtrar) | 81.58% | 86.32% | 91.12% | 78.57% |
 | 60%-40% (Datos sin filtrar) | 84% | 79.2% | 90.48% | 80.03% |
@@ -74,9 +74,11 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 70.83% | 52.78% | 81.11% | 0% |
-| 70%-30% (Datos filtrados) | - | - | - | - |
-| 60%-40% (Datos filtrados) | - | - | - | - |
-| Datos sin filtrar (80%-20%) | - | - | - | - |
+| 70%-30% (Datos filtrados) | 88.89% | 79.1% | 92.93% | 83% |
+| 60%-40% (Datos filtrados) | 87.5% | 74.96% | 91.98% | 78.87% |
+| 80%-20% (Datos sin filtrar) | 68% | 50.56% | 79.83% | 0% |
+| 70%-30% (Datos sin filtrar) | 76.32% | 56.02% | 84.52% | 0% |
+| 60%-40% (Datos sin filtrar) | 78% | 66.34% | 86.17% | 69.17% |
 
 #### Naive Bayes
 
