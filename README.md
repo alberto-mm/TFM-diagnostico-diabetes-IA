@@ -40,8 +40,8 @@ En  el directorio raíz se encuentran los notebooks de cada uno de los modelos c
 
 #### Naive Bayes
 - [Separación de datos 80-20%](./naive_bayes_80-20.ipynb)
-- [Separación de datos 70-40%](./naive_bayes_70-30.ipynb)
-- [Separación de datos 60-30%](./naive_bayes_60-40.ipynb)
+- [Separación de datos 70-30%](./naive_bayes_70-30.ipynb)
+- [Separación de datos 60-40%](./naive_bayes_60-40.ipynb)
 - [Separación de datos 80-20% sin filtrar](./naive_bayes_80-20_raw.ipynb)
 - [Separación de datos 70-30% sin filtrar](./naive_bayes_70-30_raw.ipynb)
 - [Separación de datos 60-40% sin filtrar](./naive_bayes_60-40_raw.ipynb)
@@ -49,6 +49,11 @@ En  el directorio raíz se encuentran los notebooks de cada uno de los modelos c
 
 #### SVM
 - [Separación de datos 80-20%](./svm_80-20.ipynb)
+- [Separación de datos 70-30%](./svm_70-30.ipynb)
+- [Separación de datos 60-40%](./svm_60-40.ipynb)
+- [Separación de datos 80-20% sin filtrar](./svm_80-20_raw.ipynb)
+- [Separación de datos 70-30% sin filtrar](./svm_70-30_raw.ipynb)
+- [Separación de datos 60-40% sin filtrar](./svm_60-40_raw.ipynb)
 
 
 #### Red neuronal artificial
@@ -106,9 +111,11 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 87.5% | 82.41% | 92.78% | 85.29% |
-| 70%-30% (Datos filtrados) | - | - | - | - |
-| 60%-40% (Datos filtrados) | - | - | - | - |
-| Datos sin filtrar (80%-20%) | - | - | - | - |
+| 70%-30% (Datos filtrados) | 80.56% | 60.05% | 87.37% | 0% |
+| 60%-40% (Datos filtrados) | 81.25% | 59.78% | 87.29% | 0% |
+| 80%-20% (Datos sin filtrar) | 76% | 65.56% | 86.01% | 67.04% |
+| 70%-30% (Datos sin filtrar) | 84.21% | 75.38% | 90.55% | 77.27% |
+| 60%-40% (Datos sin filtrar) | 84% | 74.98% | 89.59% | 79.37% |
 
 #### Red neuronal artificial
 
