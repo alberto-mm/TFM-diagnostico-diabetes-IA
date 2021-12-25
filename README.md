@@ -50,7 +50,9 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 | 80%-20% (Datos filtrados) | 87.5% | 90.74% | 92.78% | 90.39% |
 | 70%-30% (Datos filtrados) | 86.11% | 76.72% | 91.08% | 80.91% |
 | 60%-40% (Datos filtrados) | 64.58% | 50.15% | 79.08% | 0% |
-| Datos sin filtrar (80%-20%) | 88% | 90.56% | 93.7% | 87.2% |
+| 80%-20% (Datos sin filtrar) | 88% | 90.56% | 93.7% | 87.2% |
+| 70%-30% (Datos sin filtrar) | 76.32% | 63.07% | 86.06% | 64.11% |
+| 60%-40% (Datos sin filtrar) | 82% | 74.07% | 89.99% | 74.5% |
 
 #### Random forest
 
