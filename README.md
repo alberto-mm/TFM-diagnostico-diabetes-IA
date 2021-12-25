@@ -58,6 +58,11 @@ En  el directorio raíz se encuentran los notebooks de cada uno de los modelos c
 
 #### Red neuronal artificial
 - [Separación de datos 80-20%](./red_neuronal_80-20.ipynb)
+- [Separación de datos 70-30%](./red_neuronal_70-30.ipynb)
+- [Separación de datos 60-40%](./red_neuronal_60-40.ipynb)
+- [Separación de datos 80-20% sin filtrar](./red_neuronal_80-20_raw.ipynb)
+- [Separación de datos 70-30% sin filtrar](./red_neuronal_70-30_raw.ipynb)
+- [Separación de datos 60-40% sin filtrar](./red_neuronal_60-40_raw.ipynb)
 
 ## Resultados obtenidos
 A continuación se muestran las tablas comparativas de los resultados obtenidos en la evaluación de los modelos presentados.
@@ -122,7 +127,9 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 91.67% | 93.52% | 95% | 93.52% |
-| 70%-30% (Datos filtrados) | - | - | - | - |
-| 60%-40% (Datos filtrados) | - | - | - | - |
-| Datos sin filtrar (80%-20%) | - | - | - | - |
+| 70%-30% (Datos filtrados) | 88.89% | 85.05% | 92.93% | 88.03% |
+| 60%-40% (Datos filtrados) | 81.25% | 82.67% | 91.01% | 77.78% |
+| 80%-20% (Datos sin filtrar) | 76% | 82.22% | 86.69% | 78.21% |
+| 70%-30% (Datos sin filtrar) | 86.84% | 84.18% | 93.08% | 82.16% |
+| 60%-40% (Datos sin filtrar) | 74% | 72.12% | 85.8% | 70.07% |
 
