@@ -31,10 +31,20 @@ En  el directorio raíz se encuentran los notebooks de cada uno de los modelos c
 
 #### kNN
 - [Separación de datos 80-20%](./knn_80-20.ipynb)
+- [Separación de datos 70-30%](./knn_70-30.ipynb)
+- [Separación de datos 60-40%](./knn_60-40.ipynb)
+- [Separación de datos 80-20% sin filtrar](./knn_80-20_raw.ipynb)
+- [Separación de datos 70-30% sin filtrar](./knn_70-30_raw.ipynb)
+- [Separación de datos 60-40% sin filtrar](./knn_60-40_raw.ipynb)
 
 
 #### Naive Bayes
 - [Separación de datos 80-20%](./naive_bayes_80-20.ipynb)
+- [Separación de datos 70-40%](./naive_bayes_70-30.ipynb)
+- [Separación de datos 60-30%](./naive_bayes_60-40.ipynb)
+- [Separación de datos 80-20% sin filtrar](./naive_bayes_80-20_raw.ipynb)
+- [Separación de datos 70-30% sin filtrar](./naive_bayes_70-30_raw.ipynb)
+- [Separación de datos 60-40% sin filtrar](./naive_bayes_60-40_raw.ipynb)
 
 
 #### SVM
@@ -85,9 +95,11 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 83.33% | 79.63% | 90.63% | 79.63% |
-| 70%-30% (Datos filtrados) | - | - | - | - |
-| 60%-40% (Datos filtrados) | - | - | - | - |
-| Datos sin filtrar (80%-20%) | - | - | - | - |
+| 70%-30% (Datos filtrados) | 86.11% | 77.25% | 91.41% | 80.94% |
+| 60%-40% (Datos filtrados) | 89.58% | 87.48% | 94.44% | 85.66% |
+| 80%-20% (Datos sin filtrar) | 80% | 68.89% | 88.57% | 70% |
+| 70%-30% (Datos sin filtrar) | 86.84% | 83.71% | 92.31% | 83.94% |
+| 60%-40% (Datos sin filtrar) | 84% | 79.63% | 90.74% | 80.06% |
 
 #### SVM
 
