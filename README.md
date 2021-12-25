@@ -16,7 +16,9 @@ En  el directorio raíz se encuentran los notebooks de cada uno de los modelos c
 - [Separación de datos 80-20%](./arboles_decision_80-20.ipynb)
 - [Separación de datos 70-30%](./arboles_decision_70-30.ipynb)
 - [Separación de datos 60-40%](./arboles_decision_60-40.ipynb)
-- [Datos sin filtrar (80-20%)](./arboles_decision_raw.ipynb)
+- [Separación de datos 80-20% sin filtrar](./arboles_decision_80-20_raw.ipynb)
+- [Separación de datos 70-30% sin filtrar](./arboles_decision_70-30_raw.ipynb)
+- [Separación de datos 60-40% sin filtrar](./arboles_decision_60-40_raw.ipynb)
 
 
 #### Random forest
@@ -55,9 +57,9 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 79.17% | 75.93% | 87.22% | 79.26% |
-| 70%-30% (Datos filtrados) | - | - | - | - |
-| 60%-40% (Datos filtrados) | - | - | - | - |
-| Datos sin filtrar (80%-20%) | - | - | - | - |
+| 70%-30% (Datos filtrados) | 86.11% | 77.25% | 91.41% | 80.94% |
+| 60%-40% (Datos filtrados) | 87.5% | 90.96% | 93.33% | 86.57% |
+| Datos sin filtrar (60%-40%) | 84% | 79.2% | 90.48% | 80.03% |
 
 #### kNN
 
