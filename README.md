@@ -4,14 +4,13 @@ Este repositorio contiene los notebooks de toda la experimentación desarrollada
 
 ## Organización del repositorio
 
-- En la carpeta [`datos`](./datos) se encuentran los ficheros `Full statistics.xls` (y su transformación a fichero `.csv`) y `For LDA grapgh.xls` obtenidos del [trabajo](https://zenodo.org/record/2525358#.YbFAQNDMLIX) de Dremin et al. (2017). Además, se encuentran los siguientes ficheros:
-	* [`preprocesamiento_datos.ipynb`](./datos/preprocesamiento_datos.ipynb): notebook con la carga inicial del dataset y su transformación para obtener un conjunto de datos con el que trabajar. Este conjunto de datos se almacena en el fichero `datos.csv` y se crea otra dataset con las clases en _one-hot encoding_, almacenado en el fichero `datos_onehot.csv`.
-	* [`cargar_datos.ipynb`](./datos/cargar_datos.ipynb) y [`cargar_datos_onehot.ipynb`](./datos/cargar_datos_onehot.ipynb) son dos notebooks de prueba de carga de los dos conjuntos de datos creados anteriormente.
-	* [`analisis_exploratorio.ipynb`](./datos/analisis_exploratorio.ipynb): notebook en el que se realiza el análisis exploratorio de los datos (_EDA_) del conjunto de datos `datos.csv` para entender cómo están distribuidos y familiarizarse un poco más con ellos. Tras las correcciones oportunas se obtiene el dataset filtrado con el que trabajarán los modelos. Este se almacena en `datos_filtrados.csv`.
-
----
+En la carpeta [`datos`](./datos) se encuentran los ficheros `Full statistics.xls` (y su transformación a fichero `.csv`) y `For LDA grapgh.xls` obtenidos del [trabajo](https://zenodo.org/record/2525358#.YbFAQNDMLIX) de Dremin et al. (2017). Además, se encuentran los siguientes ficheros:
+- [`preprocesamiento_datos.ipynb`](./datos/preprocesamiento_datos.ipynb): notebook con la carga inicial del dataset y su transformación para obtener un conjunto de datos con el que trabajar. Este conjunto de datos se almacena en el fichero `datos.csv` y se crea otra dataset con las clases en _one-hot encoding_, almacenado en el fichero `datos_onehot.csv`.
+- [`cargar_datos.ipynb`](./datos/cargar_datos.ipynb) y [`cargar_datos_onehot.ipynb`](./datos/cargar_datos_onehot.ipynb) son dos notebooks de prueba de carga de los dos conjuntos de datos creados anteriormente.
+- [`analisis_exploratorio.ipynb`](./datos/analisis_exploratorio.ipynb): notebook en el que se realiza el análisis exploratorio de los datos (_EDA_) del conjunto de datos `datos.csv` para entender cómo están distribuidos y familiarizarse un poco más con ellos. Tras las correcciones oportunas se obtiene el dataset filtrado con el que trabajarán los modelos. Este se almacena en `datos_filtrados.csv`.
 
 En  el directorio raíz se encuentran los notebooks de cada uno de los modelos creados y evaluados. Estos son:
+
 #### Árboles de decisión
 - [Separación de datos 80-20%](./arboles_decision_80-20.ipynb)
 - [Separación de datos 70-30%](./arboles_decision_70-30.ipynb)
@@ -23,6 +22,11 @@ En  el directorio raíz se encuentran los notebooks de cada uno de los modelos c
 
 #### Random forest
 - [Separación de datos 80-20%](./random_forest_80-20.ipynb)
+- [Separación de datos 70-30%](./random_forest_70-30.ipynb)
+- [Separación de datos 60-40%](./random_forest_60-40.ipynb)
+- [Separación de datos 80-20% sin filtrar](./random_forest_80-20_raw.ipynb)
+- [Separación de datos 70-30% sin filtrar](./random_forest_70-30_raw.ipynb)
+- [Separación de datos 60-40% sin filtrar](./random_forest_60-40_raw.ipynb)
 
 
 #### kNN
@@ -47,7 +51,7 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 87.5% | 90.74% | 92.78% | 90.39% |
+| **80%-20% (Datos filtrados)** | **87.5%** | **90.74%** | **92.78%** | **90.39%** |
 | 70%-30% (Datos filtrados) | 86.11% | 76.72% | 91.08% | 80.91% |
 | 60%-40% (Datos filtrados) | 64.58% | 50.15% | 79.08% | 0% |
 | 80%-20% (Datos sin filtrar) | 88% | 90.56% | 93.7% | 87.2% |
@@ -60,8 +64,10 @@ A continuación se muestran las tablas comparativas de los resultados obtenidos 
 | --- |:---:|:---:|:---:|:---:|
 | 80%-20% (Datos filtrados) | 79.17% | 75.93% | 87.22% | 79.26% |
 | 70%-30% (Datos filtrados) | 86.11% | 77.25% | 91.41% | 80.94% |
-| 60%-40% (Datos filtrados) | 87.5% | 90.96% | 93.33% | 86.57% |
-| Datos sin filtrar (60%-40%) | 84% | 79.2% | 90.48% | 80.03% |
+| **60%-40% (Datos filtrados)** | **87.5%** | **90.96%** | **93.33%** | **86.57%** |
+| 80%-20% (Datos sin filtrar) | 84% | 71.67% | 90.09% | 74.87% |
+| 70%-30% (Datos sin filtrar) | 81.58% | 86.32% | 91.12% | 78.57% |
+| 60%-40% (Datos sin filtrar) | 84% | 79.2% | 90.48% | 80.03% |
 
 #### kNN
 
