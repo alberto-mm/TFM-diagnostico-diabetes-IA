@@ -11,125 +11,22 @@ En la carpeta [`datos`](./datos) se encuentran los ficheros `Full statistics.xls
 
 En  el directorio raíz se encuentran los notebooks de cada uno de los modelos creados y evaluados. Estos son:
 
-#### Árboles de decisión
-- [Separación de datos 80-20%](./arboles_decision_80-20.ipynb)
-- [Separación de datos 70-30%](./arboles_decision_70-30.ipynb)
-- [Separación de datos 60-40%](./arboles_decision_60-40.ipynb)
-- [Separación de datos 80-20% sin filtrar](./arboles_decision_80-20_raw.ipynb)
-- [Separación de datos 70-30% sin filtrar](./arboles_decision_70-30_raw.ipynb)
-- [Separación de datos 60-40% sin filtrar](./arboles_decision_60-40_raw.ipynb)
-
-
-#### Random forest
-- [Separación de datos 80-20%](./random_forest_80-20.ipynb)
-- [Separación de datos 70-30%](./random_forest_70-30.ipynb)
-- [Separación de datos 60-40%](./random_forest_60-40.ipynb)
-- [Separación de datos 80-20% sin filtrar](./random_forest_80-20_raw.ipynb)
-- [Separación de datos 70-30% sin filtrar](./random_forest_70-30_raw.ipynb)
-- [Separación de datos 60-40% sin filtrar](./random_forest_60-40_raw.ipynb)
-
-
-#### kNN
-- [Separación de datos 80-20%](./knn_80-20.ipynb)
-- [Separación de datos 70-30%](./knn_70-30.ipynb)
-- [Separación de datos 60-40%](./knn_60-40.ipynb)
-- [Separación de datos 80-20% sin filtrar](./knn_80-20_raw.ipynb)
-- [Separación de datos 70-30% sin filtrar](./knn_70-30_raw.ipynb)
-- [Separación de datos 60-40% sin filtrar](./knn_60-40_raw.ipynb)
-
-
-#### Naive Bayes
-- [Separación de datos 80-20%](./naive_bayes_80-20.ipynb)
-- [Separación de datos 70-30%](./naive_bayes_70-30.ipynb)
-- [Separación de datos 60-40%](./naive_bayes_60-40.ipynb)
-- [Separación de datos 80-20% sin filtrar](./naive_bayes_80-20_raw.ipynb)
-- [Separación de datos 70-30% sin filtrar](./naive_bayes_70-30_raw.ipynb)
-- [Separación de datos 60-40% sin filtrar](./naive_bayes_60-40_raw.ipynb)
-
-
-#### SVM
-- [Separación de datos 80-20%](./svm_80-20.ipynb)
-- [Separación de datos 70-30%](./svm_70-30.ipynb)
-- [Separación de datos 60-40%](./svm_60-40.ipynb)
-- [Separación de datos 80-20% sin filtrar](./svm_80-20_raw.ipynb)
-- [Separación de datos 70-30% sin filtrar](./svm_70-30_raw.ipynb)
-- [Separación de datos 60-40% sin filtrar](./svm_60-40_raw.ipynb)
-
-
-#### Red neuronal artificial
-- [Separación de datos 80-20%](./red_neuronal_80-20.ipynb)
-- [Separación de datos 70-30%](./red_neuronal_70-30.ipynb)
-- [Separación de datos 60-40%](./red_neuronal_60-40.ipynb)
-- [Separación de datos 80-20% sin filtrar](./red_neuronal_80-20_raw.ipynb)
-- [Separación de datos 70-30% sin filtrar](./red_neuronal_70-30_raw.ipynb)
-- [Separación de datos 60-40% sin filtrar](./red_neuronal_60-40_raw.ipynb)
+- [Árboles de decisión](./arboles_decision.ipynb)
+- [Random forest](./random_forest.ipynb)
+- [_k_ vecinos próximos (kNN)](./knn.ipynb)
+- [Naive Bayes](./naive_bayes.ipynb)
+- [Máquinas de vectores soporte (SVM)](./svm.ipynb)
+- [Red neuronal artificial](./red_neuronal.ipynb)
 
 ## Resultados obtenidos
 A continuación se muestran las tablas comparativas de los resultados obtenidos en la evaluación de los modelos presentados.
 
-#### Árboles de decisión
 
 |  | Exactitud | Sensibilidad | Especificidad | F1-score |
 | --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 87.5% | 90.74% | 92.78% | 90.39% |
-| 70%-30% (Datos filtrados) | 86.11% | 76.72% | 91.08% | 80.91% |
-| 60%-40% (Datos filtrados) | 64.58% | 50.15% | 79.08% | 0% |
-| 80%-20% (Datos sin filtrar) | 88% | 90.56% | 93.7% | 87.2% |
-| 70%-30% (Datos sin filtrar) | 76.32% | 63.07% | 86.06% | 64.11% |
-| 60%-40% (Datos sin filtrar) | 82% | 74.07% | 89.99% | 74.5% |
-
-#### Random forest
-
-|  | Exactitud | Sensibilidad | Especificidad | F1-score |
-| --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 79.17% | 75.93% | 87.22% | 79.26% |
-| 70%-30% (Datos filtrados) | 86.11% | 77.25% | 91.41% | 80.94% |
-| 60%-40% (Datos filtrados) | 87.5% | 90.96% | 93.33% | 86.57% |
-| 80%-20% (Datos sin filtrar) | 84% | 71.67% | 90.09% | 74.87% |
-| 70%-30% (Datos sin filtrar) | 81.58% | 86.32% | 91.12% | 78.57% |
-| 60%-40% (Datos sin filtrar) | 84% | 79.2% | 90.48% | 80.03% |
-
-#### kNN
-
-|  | Exactitud | Sensibilidad | Especificidad | F1-score |
-| --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 70.83% | 52.78% | 81.11% | 0% |
-| 70%-30% (Datos filtrados) | 88.89% | 79.1% | 92.93% | 83% |
-| 60%-40% (Datos filtrados) | 87.5% | 74.96% | 91.98% | 78.87% |
-| 80%-20% (Datos sin filtrar) | 68% | 50.56% | 79.83% | 0% |
-| 70%-30% (Datos sin filtrar) | 76.32% | 56.02% | 84.52% | 0% |
-| 60%-40% (Datos sin filtrar) | 78% | 66.34% | 86.17% | 69.17% |
-
-#### Naive Bayes
-
-|  | Exactitud | Sensibilidad | Especificidad | F1-score |
-| --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 83.33% | 79.63% | 90.63% | 79.63% |
-| 70%-30% (Datos filtrados) | 86.11% | 77.25% | 91.41% | 80.94% |
-| 60%-40% (Datos filtrados) | 89.58% | 87.48% | 94.44% | 85.66% |
-| 80%-20% (Datos sin filtrar) | 80% | 68.89% | 88.57% | 70% |
-| 70%-30% (Datos sin filtrar) | 86.84% | 83.71% | 92.31% | 83.94% |
-| 60%-40% (Datos sin filtrar) | 84% | 79.63% | 90.74% | 80.06% |
-
-#### SVM
-
-|  | Exactitud | Sensibilidad | Especificidad | F1-score |
-| --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 87.5% | 82.41% | 92.78% | 85.29% |
-| 70%-30% (Datos filtrados) | 80.56% | 60.05% | 87.37% | 0% |
-| 60%-40% (Datos filtrados) | 81.25% | 59.78% | 87.29% | 0% |
-| 80%-20% (Datos sin filtrar) | 76% | 65.56% | 86.01% | 67.04% |
-| 70%-30% (Datos sin filtrar) | 84.21% | 75.38% | 90.55% | 77.27% |
-| 60%-40% (Datos sin filtrar) | 84% | 74.98% | 89.59% | 79.37% |
-
-#### Red neuronal artificial
-
-|  | Exactitud | Sensibilidad | Especificidad | F1-score |
-| --- |:---:|:---:|:---:|:---:|
-| 80%-20% (Datos filtrados) | 91.67% | 93.52% | 95% | 93.52% |
-| 70%-30% (Datos filtrados) | 88.89% | 85.05% | 92.93% | 88.03% |
-| 60%-40% (Datos filtrados) | 81.25% | 82.67% | 91.01% | 77.78% |
-| 80%-20% (Datos sin filtrar) | 76% | 82.22% | 86.69% | 78.21% |
-| 70%-30% (Datos sin filtrar) | 86.84% | 84.18% | 93.08% | 82.16% |
-| 60%-40% (Datos sin filtrar) | 74% | 72.12% | 85.8% | 70.07% |
-
+| Árboles de decisión | 87.5% | 90.74% | 92.78% | 90.39% |
+| Random forest | 79.17% | 75.93% | 87.22% | 79.26% |
+| kNN | 70.83% | 52.78% | 81.11% | 0% |
+| Naive Bayes | 83.33% | 79.63% | 90.63% | 79.63% |
+| SVM | 87.5% | 82.41% | 92.78% | 85.29% |
+| Red neuronal | 91.67% | 93.52% | 95% | 93.52% |
